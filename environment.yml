@@ -1,0 +1,17 @@
+name: python4-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - jupyterlab
+  - notebook
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pip
+  - pip:
+    - requests
+    - beautifulsoup4
